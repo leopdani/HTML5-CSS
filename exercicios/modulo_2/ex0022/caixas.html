@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{ /*box level 
+            display: inline; para transformar em inline */
+            background-color: rgb(131, 128, 128);
+            height: 300px;
+            width: 300px;
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: rgb(109, 201, 201);*/
+
+            border:10px solid darkslategray;
+
+            /*padding-top: 30px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            padding: 10px 10px 10px 10px;
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px; */
+
+            margin:20px auto 40px auto;  /*20px 20px 40px 20px;*/
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon; */
+
+            outline:15px dashed salmon;
+            
+            /*ou margin: auto; para centralizar*/
+            
+        }
+        a{ /* inline level*/
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: red; 
+            display: block; display para transformar em box lvl*/
+            border: 10px solid red ;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+            padding: 10px;
+        }
+    </style>
+
+    <!--height = altura
+        width = largura 
+        
+        border =  linha que circunda o elemento ("padding" aumenta a margem interna e "margin" aumenta a margem externa, tbm pode usar "outline"(trassado fora do elemento))
+
+        div é uma caixa box-level(ocupa todo o espaço), span é um inline level ocupa so o espaço necessario e não tem quebra de linha
+    -->
+
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p>paragrafo tbm sao exemplos de box-level mas os <a href="#">link</a> links são exemplos de caixas inline-level. vamos ver como isso funciona </p>
+
+    
+</body>
+</html>
